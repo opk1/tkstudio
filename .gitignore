@@ -4,3 +4,6 @@
 Homestead.yaml
 Homestead.json
 .env
+Capfile
+/config/deploy
+/config/deploy.rb
