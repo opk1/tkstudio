@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', 'PagesController@contact');
-
+Route::get('contact', 'PagesController@contact');
 Route::get('about', 'PagesController@about');
