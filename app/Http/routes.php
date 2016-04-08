@@ -13,5 +13,5 @@
 
 Route::get('/', 'PagesController@about');
 Route::get('about', 'PagesController@about');
-Route::get('work', 'PagesController@about');
+Route::get('work', 'PagesController@work');
 Route::get('contact', 'PagesController@contact');
