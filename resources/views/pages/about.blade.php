@@ -1,13 +1,6 @@
-<!doctype html>
+@extends('app')
 
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
 
+@section('content')
     <h1>about me: {{ $first }} {{  $last }}</h1>
-
-</body>
-</html>
+@stop

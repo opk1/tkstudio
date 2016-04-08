@@ -1,11 +1,11 @@
-<!doctype html>
+@extends('app')
 
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Document</title>
-</head>
-<body>
+
+@section('content')
     <h1>Contact page</h1>
-</body>
-</html>
+@stop
+
+
+@section('footer')
+    <p>some footer stuff</p>
+@stop

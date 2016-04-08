@@ -21,4 +21,9 @@ class PagesController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function work()
+    {
+        return view('pages.work');
+    }
 }
