@@ -23,13 +23,18 @@ class PagesController extends Controller
         return view('pages.about', compact('first', 'last'));
     }
 
+    public function services()
+    {
+        return view('pages.services');
+    }
+
+    public function pricing()
+    {
+        return view('pages.pricing');
+    }
+
     public function contact()
     {
         return view('pages.contact');
-    }
-
-    public function work()
-    {
-        return view('pages.work');
     }
 }

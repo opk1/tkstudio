@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>TKStudio</title>
     <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
@@ -27,8 +27,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">TKstudio</a>
+                <a class="navbar-brand page-scroll" href="#page-top">TKStudio</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,6 +44,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#pricing">Pricing</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -82,6 +86,49 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Services Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div align="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h3>For Start-ups</h3>
+                                <h4>($499.99)</h4>
+
+                                <li>Basic Design</li>
+                                <li>Basic SEO</li>
+                                <li>Upto 5 pages</li>
+                                <li>Basic Module</li>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h3>For Small/Medium Business</h3>
+                                <h4>($799.99)</h4>
+
+                                <li>Premium Design</li>
+                                <li>Advanced SEO</li>
+                                <li>Upto 10 pages</li>
+                                <li>Advanced Module</li>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h3>For Enterprise</h3>
+                                <h4>($1499.99)</h4>
+                                
+                                <li>Premium Design</li>
+                                <li>E-Commerce integration</li>
+                                <li>10++ pages</li>
+                                <li>Advanced Module</li>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
