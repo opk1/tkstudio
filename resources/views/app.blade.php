@@ -12,6 +12,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/skeleton.css">
+
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
 </head>
@@ -63,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    @yield('content')
+                    @yield('home_content')
                 </div>
             </div>
         </div>
@@ -96,39 +98,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div align="container">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <h3>For Start-ups</h3>
-                                <h4>($499.99)</h4>
-
-                                <li>Basic Design</li>
-                                <li>Basic SEO</li>
-                                <li>Upto 5 pages</li>
-                                <li>Basic Module</li>
-                            </div>
-
-                            <div class="col-sm-4">
-                                <h3>For Small/Medium Business</h3>
-                                <h4>($799.99)</h4>
-
-                                <li>Premium Design</li>
-                                <li>Advanced SEO</li>
-                                <li>Upto 10 pages</li>
-                                <li>Advanced Module</li>
-                            </div>
-
-                            <div class="col-sm-4">
-                                <h3>For Enterprise</h3>
-                                <h4>($1499.99)</h4>
-                                
-                                <li>Premium Design</li>
-                                <li>E-Commerce integration</li>
-                                <li>10++ pages</li>
-                                <li>Advanced Module</li>
-                            </div>
-                        </div>
-                    </div>
+                    @yield('pricing_content')
                 </div>
             </div>
         </div>
@@ -139,7 +109,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                    @yield('contact_content')
                 </div>
             </div>
         </div>
